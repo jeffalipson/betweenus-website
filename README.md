@@ -1,15 +1,15 @@
 # its-just-between-us.com
 
-Static marketing site for the Just Between Us iOS app (couples-ios / couples-api).
+Static marketing site for the Between Us iOS app (betweenus-ios / betweenus-api, in ~/betweenus).
 Plain HTML + one stylesheet, no build step. Hosted on GitHub Pages; `CNAME` pins
 the custom domain.
 
 - `index.html` — landing page
 - `privacy.html` — privacy policy (App Store Connect "Privacy Policy URL").
-  Text must match couples-api `app/static/privacy.html` and couples-ios
+  Text must match betweenus-api `app/static/privacy.html` and betweenus-ios
   `Sources/PrivacyPolicyView.swift` word for word.
 - `support.html` — support page (App Store Connect "Support URL")
-- `styles.css` — palette mirrors couples-ios `Sources/Theme.swift`
+- `styles.css` — palette mirrors betweenus-ios `Sources/Theme.swift`
 
 Preview locally: `python3 -m http.server 8080` then open http://localhost:8080
 
