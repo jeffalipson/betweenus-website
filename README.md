@@ -13,5 +13,5 @@ the custom domain.
 
 Preview locally: `python3 -m http.server 8080` then open http://localhost:8080
 
-When the app is live, replace the "Coming soon" badge in `index.html` with the
-App Store link (there's a commented-out line ready).
+The hero links to the App Store listing (id6820863760, "Just Between Us"), and an
+`apple-itunes-app` meta tag shows Safari's "Open in App Store" banner on iPhone.
